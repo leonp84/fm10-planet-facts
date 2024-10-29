@@ -236,13 +236,14 @@ nav a:hover {
 
 .planet-text {
 	width: 350px;
+	height: 410px;
 	text-align: center;
 }
 
 #geology-image {
 	position: absolute;
 	bottom: -41px;
-	left: 131px;
+	left: 103px;
 	width: 138px;
 	height: auto;
 }
