@@ -59,7 +59,7 @@ function App() {
 							src={planets[currentPlanet].images[showPlanetImage]}
 							alt="Mercury"
 							className="my-5"
-							width={400}
+							width={340}
 						/>
 						{showGeology && (
 							<img
@@ -118,7 +118,7 @@ function App() {
 						<h2>{planets[currentPlanet].rotation}</h2>
 					</div>
 					<div className="info-box">
-						<span>radius</span>
+						<span>revoluion</span>
 						<h2>{planets[currentPlanet].revolution}</h2>
 					</div>
 					<div className="info-box">
@@ -126,7 +126,7 @@ function App() {
 						<h2>{planets[currentPlanet].radius}</h2>
 					</div>
 					<div className="info-box">
-						<span>radius</span>
+						<span>temperature</span>
 						<h2>{planets[currentPlanet].temperature}</h2>
 					</div>
 				</div>
